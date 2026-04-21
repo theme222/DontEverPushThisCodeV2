@@ -94,7 +94,7 @@ jobs:
             matrix:
                 # TODO#7: set correct CodeQL language for this Next.js / React project 
                 #HINT: What language do we use to write React code? What about Next.js API routes?
-                language: [ 'javascript-typescript' ]
+                language: [ 'javascript' ]
         steps:
             - name: Checkout code
               uses: actions/checkout@v4

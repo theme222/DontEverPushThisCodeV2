@@ -33,7 +33,7 @@ docker build -t highly-exploitable-site .
 docker run --rm -p 8080:3000 highly-exploitable-site
 # visit http://localhost:8080
 ```
-
+ 
 ---
 
 ## Workshop Tasks — TODO Guide
